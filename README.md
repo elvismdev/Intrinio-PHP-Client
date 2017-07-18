@@ -11,7 +11,7 @@ composer require elvismdev/intrinio dev-master
 ```
 
 ## Example Usage
-```
+```php
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 use Elvismdev\Intrinio\Intrinio;
