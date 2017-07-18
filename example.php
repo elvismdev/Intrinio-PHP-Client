@@ -11,6 +11,11 @@ $intrinio = new Intrinio(
 	);
 
 
-$companies = $intrinio->request('companies');
+$params = [
+'identifier'	=> 'AAPL',
+'item'			=> 'totalcurrentassets',
+'type'			=> 'QTR'
+];
+$historical_data = $intrinio->request('historical_data', $params);
 
-echo $companies;
+echo $historical_data;
