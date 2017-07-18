@@ -42,10 +42,22 @@ class Intrinio {
 			'Accept-Encoding' =>'gzip, deflate'
 			);
 
-		$uri = self::API_HOST . '/' . $slug;
+		$uri = $this->uriConstruct($slug);
 
 		$response = Requests::get($uri , $headers, $this->options);
 
 		return $response->body;
+	}
+
+
+	/**
+	 * Construct full request URI
+	 *
+	 * string $slug
+	 */
+	private function uriConstruct($slug) {
+		$uri = self::API_HOST . '/' . $slug;
+
+		return $uri;
 	}
 }
