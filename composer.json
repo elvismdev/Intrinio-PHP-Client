@@ -1,0 +1,16 @@
+{
+    "name": "elvismdev/intrinio",
+    "description": "A PHP Client for Intrinio financial data feeds.",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "rmccue/requests": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvis Morales",
+            "email": "yo@elvismdev.io"
+        }
+    ]
+}
