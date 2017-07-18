@@ -16,6 +16,9 @@ $params = [
 'item'			=> 'totalcurrentassets',
 'type'			=> 'QTR'
 ];
-$historical_data = $intrinio->request('historical_data', $params);
+$historical_data = $intrinio->request(
+	'historical_data', 	// Endpoint
+	$params				// Query string parameters
+	);
 
-echo $historical_data;
+print_r($historical_data);
