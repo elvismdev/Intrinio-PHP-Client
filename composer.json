@@ -2,8 +2,6 @@
     "name": "elvismdev/intrinio",
     "description": "A PHP Client for Intrinio financial data feeds.",
     "type": "library",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": "^7.0",
         "rmccue/requests": "^1.7"
