@@ -7,7 +7,7 @@ Unofficial and simple Intrinio API client for PHP. Gives easy access to stock ma
 
 ## Installation
 ```
-composer require elvismdev/intrinio dev-master
+composer require elvismdev/intrinio
 ```
 
 ## Example Usage
